@@ -56,17 +56,18 @@ These queries must use SQL functions such as:
 
 ---
 
-
-**### ✅ 4. Running the project**
+### ✅ 4. Running the project
   >python main.py --students students.json --rooms rooms.json --format json --db-name taskdb
-!(screenshots/1.png)
+![Img 1](screenshots/1.png)
 <br>
+
 ### Tests
 All of our tests run successfully as we can see below
-!(screenshots/2.png)
+![Img 2](screenshots/2.png)
 <br>
+
 ### A glimples on MySQL
-!(screenshots/3.png)
+![Img 3](screenshots/3.png)
 As we can see above our tables have been created in **testdb**, as well as indexes on students.
 
 
