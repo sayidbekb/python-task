@@ -58,8 +58,9 @@ These queries must use SQL functions such as:
 
 ### ✅ 4. Running the project
   >python main.py --students students.json --rooms rooms.json --format json --db-name taskdb
-<br>
+
 ![Img 1](screenshots/1.png)
+
 <br>
 
 ### Tests
