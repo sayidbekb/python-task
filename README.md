@@ -56,18 +56,8 @@ These queries must use SQL functions such as:
 
 ---
 
-### ✅ 4. Optimize with indexes
 
-You must propose and generate SQL statements that create indexes improving performance.  
-
-Recommended indexes:
-
-```sql
-CREATE INDEX idx_students_room ON students(room_id);
-CREATE INDEX idx_students_birthday ON students(birthday);
-CREATE INDEX idx_students_sex ON students(sex);
-
-**### ✅ 5. Running the project**
+**### ✅ 4. Running the project**
   >python main.py --students students.json --rooms rooms.json --format json --db-name taskdb
 !(screenshots/1.png)
 <br>
